@@ -7,3 +7,11 @@ nota2 = float(input("nota da segunda av:"))
 media = (nota1+nota2)
 
 print("A média das notas é:", media)
+
+if media >= 6:
+    status = "aprovado"
+else:
+    status = "não aprovado"
+    
+    print(f"A média do aluno foi: {media:.2f}")
+print(f"O aluno foi {status}.")
